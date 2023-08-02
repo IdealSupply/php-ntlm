@@ -25,6 +25,7 @@ class SoapClient extends \SoapClient
      * @var array
      */
     protected $options;
+    protected $__last_request;
 
     /**
      * {@inheritdoc}
