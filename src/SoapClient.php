@@ -26,6 +26,9 @@ class SoapClient extends \SoapClient
      */
     protected $options;
     protected $__last_request;
+    protected $__last_request_headers;
+    protected $__last_response;
+    protected $__last_response_headers;
 
     /**
      * {@inheritdoc}
